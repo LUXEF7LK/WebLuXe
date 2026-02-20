@@ -21,8 +21,14 @@ GitHub username: LUXEF7LK
 ### Windows
 git clone https://github.com/LUXEF7LK/WebLuXe.git
 cd WebLuXe
+
+
 pip install –upgrade pip
+
+
 pip install aiohttp==3.8.4 numpy==1.26.5 scipy==1.11.3 scikit-learn==1.3.2 beautifulsoup4==4.12.2
+
+
 python main.py
 
 
