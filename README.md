@@ -20,6 +20,8 @@ GitHub username: LUXEF7LK
 
 ### Windows
 git clone https://github.com/LUXEF7LK/WebLuXe.git
+
+
 cd WebLuXe
 
 
@@ -34,29 +36,61 @@ python main.py
 
 ### Linux
 git clone https://github.com/LUXEF7LK/WebLuXe.git
+
+
 cd WebLuXe
+
+
 pip3 install –upgrade pip
+
+
 pip3 install aiohttp==3.8.4 numpy==1.26.5 scipy==1.11.3 scikit-learn==1.3.2 beautifulsoup4==4.12.2
+
+
 python3 main.py
 
 
 ### Termux
+
 pkg update && pkg upgrade -y
+
+
 pkg install python git -y
+
+
 git clone https://github.com/LUXEF7LK/WebLuXe.git
+
+
 cd WebLuXe
+
+
 pip install –upgrade pip
+
+
 pip install aiohttp==3.8.4 numpy==1.26.5 scipy==1.11.3 scikit-learn==1.3.2 beautifulsoup4==4.12.2
 python main.py
 
 
 ### iSH (iOS Shell)
+
 apk update && apk upgrade
+
+
 apk add python3 py3-pip git -y
+
+
 git clone https://github.com/LUXEF7LK/WebLuXe.git
+
+
 cd WebLuXe
+
+
 pip3 install –upgrade pip
+
+
 pip3 install aiohttp==3.8.4 numpy==1.26.5 scipy==1.11.3 scikit-learn==1.3.2 beautifulsoup4==4.12.2
+
+
 python3 main.py
 
 
