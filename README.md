@@ -1,78 +1,62 @@
-# ![Web LuXe Logo](https://raw.githubusercontent.com/LUXEF7LK/WebLuXe/main/assets/logo.png)
-
 # Web LuXe
 
-[ Web LuXe: High-Dimensional Robust Inference Engine ]
-
----
+[ Web LuXe: High-Dimensional Robust Inference ]
 
 ## Overview
+Web LuXe is a high-dimensional probabilistic inference engine designed to analyze and monitor web application responses scientifically. It builds a robust statistical baseline using advanced features like entropy, DOM structure, network metrics, and more. It detects anomalies with high confidence across multi-system environments.
 
-**Web LuXe** is a high-dimensional probabilistic inference engine designed for analyzing and monitoring web application responses in a scientific, multi-dimensional way.  
-It builds a robust statistical baseline using advanced features like entropy, DOM structure, network metrics, and more.  
-Anomalies are detected with **high confidence**, supporting adaptive, high-dimensional analysis across diverse environments.
-
----
+## Developer
+This project is experimental and under active development. Beginner programmer looking for collaboration and support. For support or contributions, contact the owner: Telegram @LU_XI  
 
 ## Features
-
-- Multi-dimensional feature extraction (30+ dimensions possible)
-- Robust probabilistic inference using **MinCovDet** (Fast-MCD)
+- Multi-dimensional feature extraction (30+ features)
+- Robust probabilistic inference using MinCovDet (Fast-MCD)
 - Chi-square thresholding for anomaly detection
-- Noise reduction via DOM analysis and logical block evaluation
-- Multi-system support: **Windows, Linux, Termux, iSH**
+- Noise reduction with DOM analysis
 - Adaptive calibration with outlier rejection
-- Highly extendable for future development (payload engines, extraction modules, fingerprinting)
-
----
-
-## Developer Note
-
-I am a beginner programmer and welcome **team collaboration and support**.  
-For contributions, fork the repo, submit pull requests, or join the discussion.  
-For support or questions, contact the owner on **Telegram: @LU_XI**.
-
-**GitHub Username:** LUXEF7LK
-
----
-
-## Warning
-
-This project is **experimental** and **under active development**.  
-Use at your own risk.  
-
----
+- Multi-system support: Windows, Linux, Termux, iSH
+- Extendable for payload engines, extraction modules, fingerprinting
 
 ## Installation
 
-### 1. Clone the repository
-
-```bash
+### Windows
+1. Install Python 3.11 or above from https://www.python.org/downloads/windows/
+2. Open PowerShell and run:
 git clone https://github.com/LUXEF7LK/WebLuXe.git
 cd WebLuXe
-
-2. Install requirements
-
-windows:
-python -m venv venv
-.\venv\Scripts\activate
+python -m pip install --upgrade pip
 pip install -r requirements.txt
+python main.py
 
-Linux:
-python3 -m venv venv
-source venv/bin/activate
-pip3 install -r requirements.txt
-
-Termux:
-pkg install python
-pip install --upgrade pip
-pip install -r requirements.txt
-
-ish(iOS):
-apk add python3 py3-pip
+### Linux
+1. Install Python 3.11+ and pip
+sudo apt update && sudo apt install python3 python3-pip git -y
+git clone https://github.com/LUXEF7LK/WebLuXe.git
+cd WebLuXe
 pip3 install --upgrade pip
 pip3 install -r requirements.txt
+python3 main.py
 
+### Termux
+1. Install Python and git
+pkg update && pkg install python git -y
+git clone https://github.com/LUXEF7LK/WebLuXe.git
+cd WebLuXe
+pip install --upgrade pip
+pip install -r requirements.txt
+python main.py
 
-3. Running Web LuXe
-python main.py <target_url>
+### iSH (iOS Shell)
+1. Install Python3 and git
+apk update && apk add python3 py3-pip git
+git clone https://github.com/LUXEF7LK/WebLuXe.git
+cd WebLuXe
+pip3 install --upgrade pip
+pip3 install -r requirements.txt
+python3 main.py
+
+## Notes
+- This project is experimental and in active development.
+- All features are designed for research and educational purposes.
+- Contact the developer for questions or contributions: Telegram @LU_XI
+- GitHub username: LUXEF7LK
