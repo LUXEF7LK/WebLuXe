@@ -72,3 +72,7 @@ ish(iOS):
 apk add python3 py3-pip
 pip3 install --upgrade pip
 pip3 install -r requirements.txt
+
+
+3. Running Web LuXe
+python main.py <target_url>
